@@ -175,7 +175,9 @@ export function HomeSections() {
               <h1 className="mt-6 font-[var(--font-serif)] text-5xl leading-[0.94] tracking-[-0.05em] md:text-7xl">Beauty, baby, toys, and home essentials with a polished retail finish.</h1>
               <p className="mt-6 max-w-xl text-base leading-8 text-muted">ONIFI curates realistic everyday products with premium merchandising, fast U.S. shipping cues, trust-first support, and a storefront experience optimized for conversion on every screen size.</p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <Button href="/shop">Shop All Products <ArrowRight className="h-4 w-4" /></Button>
+                <Button href="/shop" className="rounded-full bg-slate-800 text-white shadow-[0_18px_38px_rgba(15,23,42,0.28)] hover:bg-slate-700">
+                  Get Started
+                </Button>
                 <Button href="#products" variant="secondary" className="text-black">Shop Now</Button>
               </div>
               <div className="mt-10 grid gap-4 sm:grid-cols-3">
