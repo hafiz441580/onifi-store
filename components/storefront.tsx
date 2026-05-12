@@ -176,7 +176,7 @@ export function HomeSections() {
               <p className="mt-6 max-w-xl text-base leading-8 text-muted">ONIFI curates realistic everyday products with premium merchandising, fast U.S. shipping cues, trust-first support, and a storefront experience optimized for conversion on every screen size.</p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button href="/shop">Shop All Products <ArrowRight className="h-4 w-4" /></Button>
-                <Button href="/categories" variant="secondary">Browse Categories</Button>
+                <Button href="#products" variant="secondary" className="text-black">Shop Now</Button>
               </div>
               <div className="mt-10 grid gap-4 sm:grid-cols-3">
                 {[
@@ -236,7 +236,7 @@ export function HomeSections() {
         </div>
       </section>
 
-      <section className="container-shell section-padding">
+      <section id="products" className="container-shell section-padding">
         <SectionIntro eyebrow="Featured Products" title="Premium cards with realistic commerce detail." description="Every product includes pricing, sale states, star ratings, stock visibility, tags, and direct add-to-cart entry points." />
         <ProductGrid items={featuredProducts} />
       </section>
